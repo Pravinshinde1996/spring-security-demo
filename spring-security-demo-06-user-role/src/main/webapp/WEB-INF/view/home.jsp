@@ -8,6 +8,14 @@
 <!-- dispaly username name role -->
 <p>Username:<sec:authentication property="principal.username"/></p>
 <p>Role:<sec:authentication property="principal.authorities"/></p>
+
+<sec:authorize access="hasRole('M')">
+<a href="${pageContext.request.contextPath}/managerHomePage">Manager Activity</a><br>
+</sec:authorize>
+<sec:authorize access="hasRole('SM')">
+<a href="${pageContext.request.contextPath}/seniorManagerHomePage">Senior Manager Activity</a>
+</sec:authorize>
+
 </sec:authorize>
 <hr>
 

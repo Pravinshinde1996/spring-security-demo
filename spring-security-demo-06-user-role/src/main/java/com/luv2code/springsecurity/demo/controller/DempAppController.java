@@ -12,4 +12,15 @@ public class DempAppController {
 		return "home";
 	}
 	
+	@RequestMapping("/managerHomePage")
+	public String getManagerHomePage() {
+		System.out.println("Enter in ManagerHomePage...!");
+		return "manager-home-page";
+	}
+	
+	@RequestMapping("/seniorManagerHomePage")
+	public String getseniorManagerHomePage() {
+		System.out.println("Enter in SeniorManagerHomePage...!");
+		return "senior-manager-home-page";
+	}
 }
