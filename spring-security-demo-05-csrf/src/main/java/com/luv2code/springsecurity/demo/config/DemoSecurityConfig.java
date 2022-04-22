@@ -41,6 +41,8 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 		.and()
 			.logout()
 			.permitAll();
+		
+		
 	}
 	
 	
