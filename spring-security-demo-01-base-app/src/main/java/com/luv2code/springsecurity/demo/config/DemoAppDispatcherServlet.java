@@ -6,7 +6,7 @@ public class DemoAppDispatcherServlet extends AbstractAnnotationConfigDispatcher
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		// TODO Auto-generated method stub
+		 // TODO Auto-generated method stub
 		return null;
 	}
 
